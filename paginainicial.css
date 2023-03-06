@@ -1,0 +1,69 @@
+body {
+    /* organização da pagina cor, margens e fonte */
+      margin: 0 auto;
+      padding: 0;
+      font-family: 'Times New Roman', Times, serif;
+      color: black;
+  
+  
+      background-size: cover;
+      overflow-x: hidden;
+      box-sizing: border-box;
+  
+  }
+  
+  * {
+      text-decoration: none;
+  }
+  
+  .nav {
+      background-color: #e0c5abb4;
+  }
+  
+  .nav ul {
+      list-style: none;
+      max-width: auto;
+      padding: 0;
+      margin-top: 0%;
+  }
+  
+  .nav ul li {
+      display: inline;
+  }
+  
+  .nav ul li a {
+      color: #FFF;
+      padding: 20px;
+      display: inline-block;
+      text-decoration: none;
+      transition: background .5s;
+      font-size: 120%;
+  }
+  
+  .nav ul li a:hover {
+      /* usei para fazer aquele efeito de mudar de cor */
+      background-color: #8e6c44;
+      border-radius: 10px;
+  }
+  
+  .nav ul li:last-child a {
+      float: right;
+      background-color: #644621;
+      border-radius: 10px; 
+  }
+  
+  
+  .qmsomos {
+      float: center;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  #hotel {
+      text-align: center;
+  
+  }
+  
+  
+  
+  

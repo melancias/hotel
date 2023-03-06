@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <title> reservar </title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="imagex/png" href="miniicon.png">
+
+    <link rel="stylesheet" href="form.css" type="text/css">
+</head>
+
+<body>
+    <button> <a href="principal.html" class="back"> Voltar </a></button>
+
+    <fieldset>
+        <form action="reservar.php" method="post" name="reserva">
+            <h2>Escolha seu quarto:</h2>
+
+            <select name="quartos" multiple>
+                <option value=" Caos "> Caos </option>
+                <option value="Nyx">Nyx</option>
+                <option value="Eros">Eros</option>
+                <option value="Hera">Hera</option>
+                <option value="castorpollux"> Castor e Pollux </option>
+            </select>
+            <br>
+
+            <h2> Dados pessoais: </h2>
+            Nome completo:
+            <input type="text" name="nome">
+            <br>
+            Cpf: <input type='number' maxlength="11">
+            <br>
+            Data de nascimento: <input type='datetime' maxlength="8">
+            <br>
+            <p> Qual seu genero? </p>
+            <input type=radio name=sistema value="feminino"> Feminino
+            <input type=radio name=sistema value="masculino"> Masculino
+            <input type=radio name=sistema value="nb"> Não-Binário
+            <input type=radio name=sistema value="fluido"> Genero Fluido
+            <input type=radio name=sistema value="outro"> Outro
+            <br>
+            Endereço: <input type='text'>
+            <br>
+            E-mail: <input type='e-mail' value='email'>
+            <br>
+            telefone: <input type='number' maxlength="11">
+
+            <br>
+            <br>
+
+            <input type="submit" name="enviar" value="enviar" class=enviar>
+        </form>
+
+    </fieldset>
+
+
+</body>
+
+</html>

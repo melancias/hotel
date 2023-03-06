@@ -1,0 +1,44 @@
+body {
+
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: #aa7168;
+
+
+    background-size: cover;
+    overflow-x: hidden;
+    box-sizing: border-box;
+
+
+    
+    min-height: 100vh;
+  display: flex;
+  align-items: justify;
+  justify-content: justify;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+#submitbutton {
+    background: #3d4b69;
+    color: white;
+    border-style: outset;
+    border-color: #3d4b69;
+    height: 25px;
+    width: 80px;
+    font: bold;
+    text-shadow: none;
+    border-radius: 10px;
+    
+    }
+
+
+
+    fieldset {
+        background-color: #c6a096;
+        border-radius: 10px;
+    }
